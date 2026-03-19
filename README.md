@@ -96,6 +96,16 @@ Ngoài ra, mạch tích hợp chuyển mức logic tương thích với cả 3.3
 
 ## Hướng dẫn sử dụng
 
+- Cấp nguồn 5VDC cho mạch thông qua hai chân 5V và GND. (lưu ý cần nối chung GND giữa mạch MKE-M20 và thiết bị sử dụng giao tiếp UART TTL)
+- Kết nối giao tiếp UART TTL:
+  - Chân TX của MKE-M20 → chân RX của thiết bị
+  - Chân RX của MKE-M20 → chân TX của thiết bị
+- Kết nối đường truyền RS485:
+  - Chân A của MKE-M20 → chân A của thiết bị RS485
+  - Chân B của MKE-M20 → chân B của thiết bị RS485
+
+Để tăng khả năng chống nhiễu và chống sét, nên nối chân Mass (GND nối đất) của mạch với hệ thống tiếp địa (nếu có).
+
 ## Kích thước sản phẩm
 ![MKE-M20 TTL RS485 GDT](/extras/MKE-M20_1.jpg)
 
