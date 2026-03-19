@@ -1,11 +1,11 @@
-# Mạch chuyển giao tiếp MKE-M20 TTL to RS485 GDT Module
+# Mạch chuyển giao tiếp MKE-M20 RS485 to TTL GDT Module
 
 ## Giới thiệu sản phẩm
-Mạch chuyển giao tiếp MKE-M20 TTL to RS485 GDT Module là giải pháp lý tưởng giúp chuyển đổi tín hiệu giữa chuẩn UART TTL (vi điều khiển, máy tính nhúng, SBC,...) và chuẩn truyền thông công nghiệp RS485 hai chiều.
+Mạch chuyển giao tiếp MKE-M20 RS485 to TTL GDT Module là giải pháp lý tưởng giúp chuyển đổi tín hiệu giữa chuẩn UART TTL (vi điều khiển, máy tính nhúng, SBC,...) và chuẩn truyền thông công nghiệp RS485 hai chiều.
 
 Sản phẩm sử dụng IC MAX13487E chính hãng Analog Devices (Maxim) tích hợp cơ chế điều khiển tự động hướng truyền (Auto Direction Control), giúp đơn giản hóa việc lập trình và tăng độ ổn định so với các dòng IC truyền thống như MAX485. Mạch hỗ trợ tốc độ truyền lên đến 500kbps, đảm bảo hiệu suất cao trong các hệ thống truyền thông công nghiệp.
 
-Đặc biệt, Mạch chuyển giao tiếp MKE-M20 TTL to RS485 GDT Module được trang bị đầy đủ các cơ chế bảo vệ phần cứng như GDT (Gas Discharge Tube) chống sét, TVS chống ESD/xung điện áp, và cầu chì bảo vệ quá dòng, giúp hệ thống hoạt động bền bỉ và an toàn trong môi trường nhiễu cao hoặc ngoài trời.
+Đặc biệt, Mạch chuyển giao tiếp MKE-M20 RS485 to TTL GDT Module được trang bị đầy đủ các cơ chế bảo vệ phần cứng như GDT (Gas Discharge Tube) chống sét, TVS chống ESD/xung điện áp, và cầu chì bảo vệ quá dòng, giúp hệ thống hoạt động bền bỉ và an toàn trong môi trường nhiễu cao hoặc ngoài trời.
 
 Ngoài ra, mạch tích hợp chuyển mức logic tương thích với cả 3.3VDC và 5VDC, cho phép kết nối trực tiếp với các nền tảng phổ biến như ESP32, Arduino, Raspberry Pi mà không cần mạch phụ trợ.
 
@@ -108,8 +108,8 @@ Ngoài ra, mạch tích hợp chuyển mức logic tương thích với cả 3.3
 Để tăng khả năng chống nhiễu và chống sét, nên nối chân Mass (GND nối đất) của mạch với hệ thống tiếp địa (nếu có).
 
 ## Kích thước sản phẩm
-![MKE-M20 TTL RS485 GDT](/extras/MKE-M20_1.jpg)
+![MKE-M20 RS485 TTL GDT](/extras/MKE-M20_1.jpg)
 
 ## Hình ảnh sản phẩm
-![MKE-M20 TTL RS485 GDT](/extras/MKE-M20_2.png)
-![MKE-M20 TTL RS485 GDT](/extras/MKE-M20_3.png)
+![MKE-M20 RS485 TTL GDT](/extras/MKE-M20_2.png)
+![MKE-M20 RS485 TTL GDT](/extras/MKE-M20_3.png)
